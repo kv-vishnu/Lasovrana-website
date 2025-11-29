@@ -1,0 +1,126 @@
+ /* Header Styles */
+ body{
+    font-family: 'Archivo', sans-serif;
+ }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            /* background: rgba(0, 0, 0, 0.9);*/
+            backdrop-filter: blur(100px);
+            z-index: 1000;
+            padding: 2rem 2rem;
+            border-bottom: 1px solid #000;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1750px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            width: 230px;
+        }
+
+        nav {
+            display: flex;
+            gap: 2.5rem;
+        }
+
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 1.8rem;
+            transition: color 0.3s;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #000000;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .header-buttons button {
+            background: none;
+            border: 2px solid white;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+
+        /* .header-buttons button:hover {
+            background: #FFD700;
+            border-color: #FFD700;
+            color: black;
+        } */
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: #000000;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem;
+            }
+
+            .logo {
+                font-size: 1.4rem;
+            }
+
+            nav {
+                position: fixed;
+                top: 70px;
+                left: -120%;
+                width: 100%;
+                height: calc(100vh - 70px);
+                background: rgba(0, 0, 0, 0.98);
+                flex-direction: column;
+                padding: 2rem;
+                gap: 1.5rem;
+                transition: left 0.3s;
+            }
+
+            nav.active {
+                left: 0;
+            }
+
+            nav a {
+                font-size: 1.5rem;
+                color: #fff;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .header-buttons {
+                gap: 0.5rem;
+            }
+
+            .header-buttons button {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.9rem;
+            }
+            .logo img {
+                width: 150px;
+            }
+        }
