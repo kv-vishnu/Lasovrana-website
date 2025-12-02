@@ -1,0 +1,343 @@
+@import url("./components/header.css");
+@import url("./components/swiper.css");
+@import url("./components/footer.css");
+
+/* whats season banner */
+.what-season-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}
+.what-season-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.what-season-content {
+    text-align: center;
+    max-width: 900px;
+}
+.what-season_tab_title{
+    text-transform: uppercase;
+}
+.what-season-desc{
+    font-size: 2rem;
+}
+/* Responsive css */
+@media (max-width: 768px)
+{
+    .what-season-title{
+        font-size: 2rem;
+    }
+    .what-season-desc{
+    font-size: 1rem;
+}
+}
+/* whats season banner */
+/* whats season tab */
+        .what-season-tab .tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .what-season-tab .tab-button {
+            flex: 1;
+            padding: 18px 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #666;
+            transition: all 0.3s ease;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .what-season-tab .tab-button:hover {
+            background: #e9ecef;
+            color: #333;
+        }
+
+        .what-season-tab .tab-button.active {
+            color: #000000;
+            background: #e1e1e1;
+        }
+
+        .what-season-tab .tab-button.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .what-season-tab .tab-content {
+            display: none;
+            padding: 40px;
+            animation: fadeIn 0.5s ease;
+            background: #f9f9f9;
+        }
+
+        .what-season-tab .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .what-season-tab .content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .what-season-tab .text-content h4 {
+            margin-bottom: 20px;
+        }
+
+        .what-season-tab .text-content ul {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        .what-season-tab .text-content li {
+
+        }
+
+        .what-season-tab .image-content {
+            width: 100%;
+            height: 100%;
+            min-height: 300px;
+        }
+
+        .what-season-tab .image-content img {
+            width: 100%;
+            /* height: 100%; */
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .what-season-tab .content-wrapper {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .what-season-tab .tab-content {
+                padding: 24px;
+            }
+
+            .what-season-tab .text-content h2 {
+                font-size: 24px;
+            }
+
+            .what-season-tab .text-content p {
+                font-size: 14px;
+            }
+
+            .what-season-tab .tab-button {
+                padding: 14px 16px;
+                font-size: 14px;
+            }
+
+            .what-season-tab .image-content {
+                min-height: 250px;
+                order: -1;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .what-season-tab .tab-content {
+                padding: 16px;
+            }
+
+            .what-season-tab .text-content h2 {
+                font-size: 20px;
+            }
+
+            .what-season-tab .tab-button {
+                padding: 12px 12px;
+                font-size: 13px;
+            }
+
+            .what-season-tab .image-content {
+                min-height: 200px;
+            }
+        }
+/* whats season tab */
+
+/* hero section with title */
+.hero-section-with-title {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-section-with-title .hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Works like background-size: cover */
+    z-index: 0;
+}
+
+.hero-section-with-title .overlay {
+    position: absolute;
+    inset: 0;
+    background:rgb(0 0 0 / 58%); /* dark overlay */
+    z-index: 1;
+}
+
+.hero-section-with-title .hero-title {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 900;
+    line-height: 0.9;
+}
+/* hero section with title */
+
+/* hero section with title and button */
+.hero-section-with-title-and-button {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-section-with-title-and-button .hero-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-section-with-title-and-button .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4); /* blur/black effect */
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+
+.hero-section-with-title-and-button .hero-content {
+    position: relative;
+    z-index: 3;
+}
+
+.hero-section-with-title-and-button .hero-title {
+    font-size: 7rem;
+    font-weight: 900;
+    line-height: 0.9;
+    color: #fff;
+}
+
+.hero-section-with-title-and-button .hero-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    background: transparent;
+    transition: 0.3s ease;
+    margin-bottom:50px;
+}
+
+.hero-section-with-title-and-button .hero-btn:hover {
+    background: rgba(255,255,255,0.15);
+}
+/* hero section with title and button */
+
+/* Split section */
+.two-coloum-layout {
+    padding: 80px 0;
+}
+
+/* MAKE THE CONTAINER FLEX */
+.two-coloum-layout .container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* IMAGE */
+.two-coloum-layout .split-image img {
+    width: 700px;
+    height: auto;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+/* TEXT SIDE */
+.two-coloum-layout .split-content h4 {
+    margin-bottom: 20px;
+}
+
+.two-coloum-layout .split-content p {
+    margin-bottom: 24px;
+}
+
+/* BUTTON */
+.two-coloum-layout .btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    background: transparent;
+    transition: 0.3s ease;
+}
+
+.two-coloum-layout .btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .two-coloum-layout .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .two-coloum-layout .split-image img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .two-coloum-layout .split-content {
+        margin-top: 20px;
+    }
+}
+
+/* Split section */

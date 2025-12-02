@@ -9,6 +9,12 @@
     </footer>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script src="assets/js/home.js"></script>
+<?php
+if (!empty($page_assets[$current_page]["js"])) {
+    foreach ($page_assets[$current_page]["js"] as $js) {
+        echo '<script src="'.$js.'"></script>'."\n";
+    }
+}
+?>
 </body>
 </html>
