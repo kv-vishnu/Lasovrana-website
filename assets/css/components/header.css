@@ -63,6 +63,19 @@ h4 {
   color: #000;
   text-transform: uppercase;
 }
+/* Responsive */
+@media (max-width: 768px) {
+            h2 {
+                font-size: 2rem;
+            }
+            h4 {
+                font-size: 1.5rem;
+            }
+            .container {
+                max-width: 90% !important;
+            }
+        }
+/* Responsive */
         .container {
             max-width: 1750px;
             margin: 0 auto;
@@ -75,8 +88,9 @@ h4 {
             top: 0;
             left: 0;
             right: 0;
+            background:#fff;
             /* background: rgba(0, 0, 0, 0.9);*/
-            backdrop-filter: blur(100px);
+            /* backdrop-filter: blur(100px); */
             z-index: 1000;
             padding: 2rem 2rem;
             border-bottom: 1px solid #000;

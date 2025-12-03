@@ -37,12 +37,12 @@
 /* whats season tab */
         .what-season-tab .tabs {
             display: flex;
-            background: #f8f9fa;
+            /* background: #f8f9fa; */
             border-bottom: 2px solid #e0e0e0;
         }
 
         .what-season-tab .tab-button {
-            flex: 1;
+            /* flex: 1; */
             padding: 18px 24px;
             background: none;
             border: none;
@@ -216,6 +216,14 @@
     font-weight: 900;
     line-height: 0.9;
 }
+    @media (max-width:768px) {
+        .hero-section-with-title .hero-title {
+            font-size: 2rem;
+        }
+        .hero-section-with-title {
+            height: 50vh;
+        }
+}
 /* hero section with title */
 
 /* hero section with title and button */
@@ -274,6 +282,14 @@
 .hero-section-with-title-and-button .hero-btn:hover {
     background: rgba(255,255,255,0.15);
 }
+@media (max-width:768px) {
+        .hero-section-with-title-and-button .hero-title {
+            font-size: 2rem;
+        }
+        .hero-section-with-title-and-button {
+            height: 50vh;
+        }
+}
 /* hero section with title and button */
 
 /* Split section */
@@ -304,6 +320,7 @@
 
 .two-coloum-layout .split-content p {
     margin-bottom: 24px;
+    text-align: justify;
 }
 
 /* BUTTON */
