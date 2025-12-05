@@ -5,6 +5,26 @@
             <p class="what-season-desc">Each fruit and vegetable has its own season, with subtle shifts that happen every day. Follow their microseasons to unlock flavour at every stage.</p>
         </div>
     </section>
+
+     <!-- Section start -->
+        <section class="hero-section-with-title-and-button">
+            <img src="https://www.geocledian.com/wp-content/uploads/2024/07/farmer-farming-sustainable-support-rate-application.jpg"
+                alt="background" class="hero-bg">
+
+            <div class="overlay"></div>
+
+            <div class="hero-content">
+                <a href="#" class="hero-btn">What We Do</a>
+
+                <h1 class="hero-title">
+                    Food is not<br>
+                     fuel.<br>
+                     It’s life.
+                </h1>
+            </div>
+        </section>
+        <!-- Section end -->
+
     <section class="what-season-tab">
          <div class="container">
 
@@ -18,8 +38,7 @@
             <div id="tab1" class="tab-content active">
                 <div class="content-wrapper">
                     <div class="text-content">
-                        <h4>Amazing Features</h4>
-                        <p>Discover our comprehensive set of features designed to enhance your productivity and streamline your workflow.</p>
+                        <h4>Now Available Products</h4>
                         <ul>
                             <li>Apples</li>
                             <li>Bananas</li>
@@ -42,7 +61,6 @@
                             <li>Cucumber</li>
                             <li>Green Peas</li>
                         </ul>
-                        <p>Our platform is built with cutting-edge technology to ensure the best performance and reliability for your business needs.</p>
                     </div>
                     <div class="image-content">
                         <img src="assets/images/apple.jpg" alt="Team working together">
@@ -52,8 +70,7 @@
             <div id="tab2" class="tab-content">
                 <div class="content-wrapper">
                     <div class="text-content">
-                        <h4>Key Benefits</h4>
-                        <p>Experience the advantages that make our solution stand out from the competition.</p>
+                        <h4>Season End Products</h4>
                         <ul>
                             <li>Apples</li>
                             <li>Bananas</li>
@@ -76,7 +93,6 @@
                             <li>Cucumber</li>
                             <li>Green Peas</li>
                         </ul>
-                        <p>Join thousands of satisfied customers who have transformed their business operations with our innovative solution.</p>
                     </div>
                     <div class="image-content">
                         <img src="assets/images/apple.jpg" alt="Business growth chart">

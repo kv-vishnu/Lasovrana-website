@@ -26,8 +26,7 @@ $page_assets = [
         "js"  => ["assets/js/whats-season.js"]
     ],
     "our-story" => [
-        "css" => ["assets/css/our-story.css"],
-        "js"  => ["assets/js/our-story.js"]
+        "css" => ["assets/css/our-story.css"]
     ]
 ];
 ?>
@@ -42,7 +41,7 @@ if (!empty($page_assets[$current_page]["css"])) {
 
 </head>
 <body>
-<header>
+<header class="header-green">
         <div class="header-container">
             <a href="#" class="logo"><img src="assets/images/lasovrana-header-logo.png" alt=""></a>
 

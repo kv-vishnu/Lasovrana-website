@@ -7,6 +7,14 @@
             justify-content: center;
             overflow: hidden;
         }
+        .hero-green {
+            position: relative;
+            background: #9cfe7d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
         .hero-content img{
             margin-top: 150px;
             width: 90%;
