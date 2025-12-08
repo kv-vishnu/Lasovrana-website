@@ -1,5 +1,6 @@
 @import url("./components/header.css");
 @import url("./components/swiper.css");
+@import url("./components/masonry-gallery.css");
 @import url("./components/footer.css");
 
 /* whats season banner */
@@ -182,23 +183,22 @@
 
 /* hero section with title */
 .hero-section-with-title {
-    position: relative;
-    width: 100%;
+   position: relative;
+    width: 92%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
     overflow: hidden;
 }
 
 .hero-section-with-title .hero-bg {
     position: absolute;
-    inset: 0;
-    width: 100%;
+    width: 92%;
     height: 100%;
-    object-fit: cover; /* Works like background-size: cover */
-    z-index: 0;
+    object-fit: cover;
+    z-index: 1;
 }
 
 .hero-section-with-title .overlay {
@@ -240,7 +240,7 @@
 
 .hero-section-with-title-and-button .hero-bg {
     position: absolute;
-    width: 100%;
+    width: 92%;
     height: 100%;
     object-fit: cover;
     z-index: 1;
@@ -248,7 +248,7 @@
 
 .hero-section-with-title-and-button .overlay {
     position: absolute;
-    width: 100%;
+    width: 92%;
     height: 100%;
     background: rgba(0,0,0,0.4); /* blur/black effect */
     backdrop-filter: blur(4px);

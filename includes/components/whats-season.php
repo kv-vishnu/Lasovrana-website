@@ -104,7 +104,7 @@
         </div>
 
         <!-- Section start -->
-        <section class="hero-section-with-title">
+        <section class="hero-section-with-title" style="display:none;">
             <img src="https://www.geocledian.com/wp-content/uploads/2024/07/farmer-farming-sustainable-support-rate-application.jpg"
          alt="background" class="hero-bg">
 

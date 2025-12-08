@@ -1,8 +1,8 @@
-<div class="our-story">
-    <section class="our-story-banner">
-        <div class="our-story-content">
-            <h1 class="our-story-title">GO BEYOND FOUR SEASONS</h1>
-            <p class="our-story-desc"> Our brand strategy is at the centre of everything we do. It defines our
+<div class="wholesale">
+    <section class="wholesale-banner">
+        <div class="wholesale-content">
+            <h1 class="wholesale-title">Wholesale</h1>
+            <p class="wholesale-desc"> Our brand strategy is at the centre of everything we do. It defines our
 core essence. It shapes what we want to stand for in people's minds,
 and how we want to show up in the world. It forms the foundation of
 every piece of communication we create.</p>
@@ -17,7 +17,7 @@ every piece of communication we create.</p>
             <div class="overlay"></div>
 
             <div class="hero-content">
-                <a href="#" class="hero-btn">What We Do</a>
+                <a href="#" class="hero-btn openAccountBtn">Open An Account</a>
 
                 <p class="hero-description">
                     But today, too much of the food we buy is<br>
@@ -70,7 +70,7 @@ every day and every season.
                 <p>Picked by hand, shared with heart.</p>
 
                 <!-- THIRD ROW : BUTTON -->
-                <!-- <a href="#" class="btn">Open An Account</a> -->
+                <a href="#" class="btn openAccountBtn">Open An Account</a>
             </div>
         </section>
 
@@ -80,3 +80,40 @@ every day and every season.
     </section>
     <?php include 'includes/components/swiper.php'; ?>
 </div>
+
+<!-- Modal Popup -->
+    <div id="accountModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2>Open An Account</h2>
+            <form id="accountForm">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address *</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- Modal Popup End -->

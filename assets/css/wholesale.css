@@ -1,49 +1,48 @@
 @import url("./components/header.css");
 @import url("./components/swiper.css");
+@import url("./components/modal.css");
 @import url("./components/footer.css");
 
 /* whats season banner */
-.our-story-banner {
+.wholesale-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 110px;
 }
-.our-story-title{
+.wholesale-title{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.our-story-content {
+.wholesale-content {
     text-align: center;
     max-width: 900px;
 }
-.our-story_tab_title{
+.wholesale_tab_title{
     text-transform: uppercase;
 }
-.our-story-desc{
+.wholesale-desc{
     font-size: 2rem;
 }
 /* Responsive css */
 @media (max-width: 768px)
 {
-    .our-story-title{
+    .wholesale-title{
         font-size: 2rem;
     }
-    .our-story-desc{
-        font-size: 1.1rem;
-        width: 92%;
-        margin: auto;
+    .wholesale-desc{
+    font-size: 1rem;
 }
 }
 /* whats season banner */
 /* whats season tab */
-        .our-story-tab .tabs {
+        .wholesale-tab .tabs {
             display: flex;
             /* background: #f8f9fa; */
             border-bottom: 2px solid #e0e0e0;
         }
 
-        .our-story-tab .tab-button {
+        .wholesale-tab .tab-button {
             /* flex: 1; */
             padding: 18px 24px;
             background: none;
@@ -58,17 +57,17 @@
             white-space: nowrap;
         }
 
-        .our-story-tab .tab-button:hover {
+        .wholesale-tab .tab-button:hover {
             background: #e9ecef;
             color: #333;
         }
 
-        .our-story-tab .tab-button.active {
+        .wholesale-tab .tab-button.active {
             color: #000000;
             background: #e1e1e1;
         }
 
-        .our-story-tab .tab-button.active::after {
+        .wholesale-tab .tab-button.active::after {
             content: '';
             position: absolute;
             bottom: -2px;
@@ -77,14 +76,14 @@
             height: 3px;
         }
 
-        .our-story-tab .tab-content {
+        .wholesale-tab .tab-content {
             display: none;
             padding: 40px;
             animation: fadeIn 0.5s ease;
             background: #f9f9f9;
         }
 
-        .our-story-tab .tab-content.active {
+        .wholesale-tab .tab-content.active {
             display: block;
         }
 
@@ -99,32 +98,32 @@
             }
         }
 
-        .our-story-tab .content-wrapper {
+        .wholesale-tab .content-wrapper {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 40px;
         }
 
-        .our-story-tab .text-content h4 {
+        .wholesale-tab .text-content h4 {
             margin-bottom: 20px;
         }
 
-        .our-story-tab .text-content ul {
+        .wholesale-tab .text-content ul {
             margin: 20px 0;
             padding-left: 20px;
         }
 
-        .our-story-tab .text-content li {
+        .wholesale-tab .text-content li {
 
         }
 
-        .our-story-tab .image-content {
+        .wholesale-tab .image-content {
             width: 100%;
             height: 100%;
             min-height: 300px;
         }
 
-        .our-story-tab .image-content img {
+        .wholesale-tab .image-content img {
             width: 100%;
             /* height: 100%; */
             object-fit: cover;
@@ -134,49 +133,49 @@
 
         /* Responsive Design */
         @media (max-width: 768px) {
-            .our-story-tab .content-wrapper {
+            .wholesale-tab .content-wrapper {
                 grid-template-columns: 1fr;
                 gap: 30px;
             }
 
-            .our-story-tab .tab-content {
+            .wholesale-tab .tab-content {
                 padding: 24px;
             }
 
-            .our-story-tab .text-content h2 {
+            .wholesale-tab .text-content h2 {
                 font-size: 24px;
             }
 
-            .our-story-tab .text-content p {
+            .wholesale-tab .text-content p {
                 font-size: 14px;
             }
 
-            .our-story-tab .tab-button {
+            .wholesale-tab .tab-button {
                 padding: 14px 16px;
                 font-size: 14px;
             }
 
-            .our-story-tab .image-content {
+            .wholesale-tab .image-content {
                 min-height: 250px;
                 order: -1;
             }
         }
 
         @media (max-width: 480px) {
-            .our-story-tab .tab-content {
+            .wholesale-tab .tab-content {
                 padding: 16px;
             }
 
-            .our-story-tab .text-content h2 {
+            .wholesale-tab .text-content h2 {
                 font-size: 20px;
             }
 
-            .our-story-tab .tab-button {
+            .wholesale-tab .tab-button {
                 padding: 12px 12px;
                 font-size: 13px;
             }
 
-            .our-story-tab .image-content {
+            .wholesale-tab .image-content {
                 min-height: 200px;
             }
         }
@@ -250,7 +249,7 @@
 
 .hero-section-with-title-and-button .overlay {
     position: absolute;
-    width:92%;
+    width: 92%;
     height: 100%;
     background: rgba(0,0,0,0.4); /* blur/black effect */
     backdrop-filter: blur(4px);
@@ -298,11 +297,6 @@
         }
         .hero-section-with-title-and-button {
             height: 50vh;
-        }
-        .hero-section-with-title-and-button .hero-description {
-            font-size: 1.1rem;
-            width: 92%;
-            margin: auto;
         }
 }
 /* hero section with title and button */

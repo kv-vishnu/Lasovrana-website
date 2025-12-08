@@ -74,6 +74,9 @@ h4 {
             .container {
                 max-width: 90% !important;
             }
+            p{
+                font-size: 1.1rem;
+            }
         }
 /* Responsive */
         .container {

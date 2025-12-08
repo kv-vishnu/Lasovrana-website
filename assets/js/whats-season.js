@@ -68,7 +68,7 @@ function toggleMenu() {
             });
         });
 
-  //MARK: Tabs
+  //MARK: What Season Tabs
   function openTab(evt, tabName) {
             const tabContents = document.getElementsByClassName('tab-content');
             for (let i = 0; i < tabContents.length; i++) {
@@ -83,3 +83,63 @@ function toggleMenu() {
             document.getElementById(tabName).classList.add('active');
             evt.currentTarget.classList.add('active');
         }
+
+  //MARK: Masonry Gallery
+   const images = [
+      'https://picsum.photos/500/400',
+      'https://picsum.photos/500/600',
+      'https://picsum.photos/500/400',
+      'https://picsum.photos/500/400',
+      'https://picsum.photos/500/400'
+    ];
+
+    let currentIndex = 0;
+
+    function openLightbox(index) {
+      currentIndex = index;
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = images[currentIndex];
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox(event) {
+      if (event.target.id === 'lightbox' || event.target.classList.contains('lightbox-close')) {
+        const lightbox = document.getElementById('lightbox');
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    }
+
+    function changeImage(direction, event) {
+      event.stopPropagation();
+      currentIndex += direction;
+
+      if (currentIndex < 0) {
+        currentIndex = images.length - 1;
+      } else if (currentIndex >= images.length) {
+        currentIndex = 0;
+      }
+
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.style.animation = 'none';
+      setTimeout(() => {
+        lightboxImg.src = images[currentIndex];
+        lightboxImg.style.animation = 'zoomIn 0.3s ease';
+      }, 10);
+    }
+
+    document.addEventListener('keydown', (e) => {
+      const lightbox = document.getElementById('lightbox');
+      if (lightbox.classList.contains('active')) {
+        if (e.key === 'Escape') {
+          closeLightbox({ target: lightbox });
+        } else if (e.key === 'ArrowLeft') {
+          changeImage(-1, e);
+        } else if (e.key === 'ArrowRight') {
+          changeImage(1, e);
+        }
+      }
+    });
+    // End of Masonry Gallery

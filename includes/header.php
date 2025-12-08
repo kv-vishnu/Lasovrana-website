@@ -28,6 +28,10 @@ $page_assets = [
     "our-story" => [
         "css" => ["assets/css/our-story.css"],
         "js"  => ["assets/js/our-story.js"]
+    ],
+    "wholesale" => [
+        "css" => ["assets/css/wholesale.css"],
+        "js"  => ["assets/js/wholesale.js"]
     ]
 ];
 ?>
@@ -50,7 +54,7 @@ if (!empty($page_assets[$current_page]["css"])) {
                 <a href="index.php">Shop</a>
                 <a href="our-story.php">Our Story</a>
                 <a href="whats-season.php">What’s in season</a>
-                <a href="#menu">Wholesale</a>
+                <a href="wholesale.php">Wholesale</a>
             </nav>
 
             <div class="header-buttons">
