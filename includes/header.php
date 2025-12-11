@@ -21,6 +21,10 @@ $page_assets = [
         "css" => ["assets/css/home.css"],
         "js"  => ["assets/js/home.js"]
     ],
+    "shop" => [
+        "css" => ["assets/css/shop.css"],
+        "js"  => ["assets/js/shop.js"]
+    ],
     "whats-season" => [
         "css" => ["assets/css/whats-season.css"],
         "js"  => ["assets/js/whats-season.js"]
@@ -51,7 +55,8 @@ if (!empty($page_assets[$current_page]["css"])) {
             <a href="#" class="logo"><img src="assets/images/lasovrana-header-logo.png" alt=""></a>
 
             <nav id="nav">
-                <a href="index.php">Shop</a>
+                <a href="index.php">Homeeeee</a>
+                <a href="shop.php">Shop</a>
                 <a href="our-story.php">Our Story</a>
                 <a href="whats-season.php">What’s in season</a>
                 <a href="wholesale.php">Wholesale</a>
