@@ -184,7 +184,7 @@
 /* hero section with title */
 .hero-section-with-title {
    position: relative;
-    width: 92%;
+    width: 89%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -195,7 +195,7 @@
 
 .hero-section-with-title .hero-bg {
     position: absolute;
-    width: 92%;
+    width: 89%;
     height: 100%;
     object-fit: cover;
     z-index: 1;
@@ -240,7 +240,7 @@
 
 .hero-section-with-title-and-button .hero-bg {
     position: absolute;
-    width: 92%;
+    width: 89%;
     height: 100%;
     object-fit: cover;
     z-index: 1;
@@ -248,7 +248,7 @@
 
 .hero-section-with-title-and-button .overlay {
     position: absolute;
-    width: 92%;
+    width: 89%;
     height: 100%;
     background: rgba(0,0,0,0.4); /* blur/black effect */
     backdrop-filter: blur(4px);
