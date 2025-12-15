@@ -55,7 +55,7 @@ if (!empty($page_assets[$current_page]["css"])) {
             <a href="#" class="logo"><img src="assets/images/lasovrana-header-logo.png" alt=""></a>
 
             <nav id="nav">
-                <a href="index.php">Homett</a>
+                <a href="index.php">Home</a>
                 <a href="shop.php">Shop</a>
                 <a href="our-story.php">Our Story</a>
                 <a href="whats-season.php">What’s in season</a>
