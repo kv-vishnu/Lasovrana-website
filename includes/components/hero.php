@@ -9,6 +9,11 @@ shops and homes around the world.
 Passed down through generations,
 we bring our rich expertise straight from
 our farms to the table.”</p>
+            <!-- <p>“abcdefghijklmn
+opqrstuvwxyz.”</p> -->
+            <!-- <h1 class="hero-title">abcdefghij<br>
+klmnopqrs<br>
+tuvwxyz.<br>SHARED WITH HEART.</h1> -->
             <h1 class="hero-title">PICKED BY HAND.<br>SHARED WITH HEART.</h1>
         </div>
     </section>

@@ -7,6 +7,7 @@
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 <?php
 $current_page = basename($_SERVER["PHP_SELF"], ".php");
@@ -55,11 +56,12 @@ if (!empty($page_assets[$current_page]["css"])) {
             <a href="#" class="logo"><img src="assets/images/lasovrana-header-logo.png" alt=""></a>
 
             <nav id="nav">
-                <a href="index.php">Home</a>
-                <a href="shop.php">Shop</a>
-                <a href="our-story.php">Our Story</a>
+                <a href="index.php">Our Story</a>
                 <a href="whats-season.php">What’s in season</a>
+                <a href="shop.php">Shop</a>
                 <a href="wholesale.php">Wholesale</a>
+                <!-- <a href="our-story.php">Our Story</a> -->
+
             </nav>
 
             <div class="header-buttons">

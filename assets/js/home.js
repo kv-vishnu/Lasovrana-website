@@ -25,9 +25,9 @@ function initSwiperComponent() {
     initialSlide: 0,
     autoHeight: false,
     breakpoints: {
-      0: { slidesPerView: 1, spaceBetween: 20 },
-      700: { slidesPerView: 2, spaceBetween: 20 },
-      1100: { slidesPerView: 2, spaceBetween: 20 },
+      0: { slidesPerView: 1, spaceBetween: 2 },
+      700: { slidesPerView: 2, spaceBetween: 2 },
+      1100: { slidesPerView: 2, spaceBetween: 2 },
     }
   };
 }
