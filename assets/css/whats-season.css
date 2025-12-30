@@ -358,3 +358,18 @@
 }
 
 /* Split section */
+
+/* product list */
+.product-list ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 30px;
+    list-style: none;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .product-list ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* product list */
