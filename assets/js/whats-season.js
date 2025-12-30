@@ -143,3 +143,35 @@ function toggleMenu() {
       }
     });
     // End of Masonry Gallery
+
+
+    //MARK: Product Image Change
+    document.querySelectorAll('.product-list').forEach(list => {
+
+    const items = list.querySelectorAll('li');
+
+    items.forEach(item => {
+        item.addEventListener('click', () => {
+
+            // Find current tab
+            const tab = item.closest('.tab-content');
+
+            // Image inside same tab
+            const image = tab.querySelector('.productImage');
+
+            // Remove active only inside this list
+            items.forEach(i => i.classList.remove('active'));
+
+            // Add active
+            item.classList.add('active');
+
+            // Change image if exists
+            const imgSrc = item.getAttribute('data-img');
+            if (imgSrc) {
+                image.src = imgSrc;
+            }
+        });
+    });
+
+});
+

@@ -37,12 +37,12 @@
             <!-- tab content start -->
             <div id="tab1" class="tab-content active">
                 <div class="content-wrapper">
-                    <div class="text-content">
+                    <div class="text-content product-list">
                         <h4>Now Available Products</h4>
                         <ul>
-                            <li>Apples</li>
-                            <li>Bananas</li>
-                            <li>Grapes</li>
+                            <li data-img="assets/images/apple.jpg" class="active">Apples</li>
+                            <li data-img="assets/images/banana.webp">Bananas</li>
+                            <li data-img="assets/images/grape.jpg">Grapes</li>
                             <li>Oranges</li>
                             <li>Strawberries</li>
                             <li>Mangoes</li>
@@ -63,18 +63,18 @@
                         </ul>
                     </div>
                     <div class="image-content">
-                        <img src="assets/images/apple.jpg" alt="Team working together">
+                        <img class="productImage" src="assets/images/apple.jpg" alt="Team working together">
                     </div>
                 </div>
             </div>
             <div id="tab2" class="tab-content">
                 <div class="content-wrapper">
-                    <div class="text-content">
-                        <h4>Season End Products</h4>
+                    <div class="text-content product-list">
+                        <h4>Now Available Products</h4>
                         <ul>
-                            <li>Apples</li>
-                            <li>Bananas</li>
-                            <li>Grapes</li>
+                            <li data-img="assets/images/apple.jpg" class="active">Apples</li>
+                            <li data-img="assets/images/banana.webp">Bananas</li>
+                            <li data-img="assets/images/grape.jpg">Grapes</li>
                             <li>Oranges</li>
                             <li>Strawberries</li>
                             <li>Mangoes</li>
@@ -95,7 +95,7 @@
                         </ul>
                     </div>
                     <div class="image-content">
-                        <img src="assets/images/apple.jpg" alt="Business growth chart">
+                        <img class="productImage" src="assets/images/apple.jpg" alt="Team working together">
                     </div>
                 </div>
             </div>
