@@ -1,1 +1,148 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archivo Font – Full Text Styles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* =========================
+           Archivo Font Faces
+        ========================= */
+
+        /* Regular – 400 */
+        @font-face {
+            font-family: 'Archivo';
+            src: url('fonts/archivo/Archivo-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* Bold – 700 */
+        @font-face {
+            font-family: 'Archivo';
+            src: url('fonts/archivo/Archivo-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* Black – 900 (REAL THICK) */
+        @font-face {
+            font-family: 'Archivo';
+            src: url('fonts/archivo/Archivo-Black.woff2') format('woff2');
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* =========================
+           Base Styles
+        ========================= */
+
+        body {
+            font-family: 'Archivo', Arial, sans-serif;
+            margin: 60px;
+            background: #ffffff;
+            color: #111;
+        }
+
+        .section {
+            max-width: 1200px;
+            margin-bottom: 100px;
+        }
+
+        /* =========================
+           Headings
+        ========================= */
+
+        .title-small-black {
+            font-size: 42pt;
+            font-weight: 900;
+            letter-spacing: -0.04em;
+            margin-bottom: 20px;
+        }
+
+        .title-hero-black {
+            font-size: 80pt;
+            font-weight: 900;
+            letter-spacing: -0.05em;
+            line-height: 0.95;
+            margin-bottom: 40px;
+        }
+
+        .title-hero-bold {
+            font-size: 80pt;
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            line-height: 1;
+            margin-bottom: 40px;
+        }
+
+        /* =========================
+           Subtitles
+        ========================= */
+
+        .subtitle-regular {
+            font-size: 33pt;
+            font-weight: 400;
+            line-height: 1.25;
+            max-width: 900px;
+            margin-bottom: 50px;
+        }
+
+        .subtitle-bold {
+            font-size: 33pt;
+            font-weight: 700;
+            line-height: 1.25;
+            max-width: 900px;
+            margin-bottom: 50px;
+        }
+
+        /* =========================
+           Body Text
+        ========================= */
+
+        .body-text {
+            font-size: 14pt;
+            font-weight: 400;
+            line-height: 1.7;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+
+        <h1 class="title-small-black">WHAT’S IN SEASON</h1>
+
+        <h1 class="title-hero-black">
+            PICKED BY HAND.<br>
+            SHARED WITH HEART
+        </h1>
+
+        <h1 class="title-hero-black">IN SEASON</h1>
+
+        <p class="subtitle-regular">
+            “We share our passion for authentic and seasonal Italian produce with chefs,
+            shops and homes around the world. Bringing our expertise straight from our
+            farms to your table.”
+        </p>
+
+        <p class="subtitle-bold">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna.
+        </p>
+
+        <p class="body-text">
+            This page demonstrates proper typography using the Archivo font family.
+            Regular (400), Bold (700), and Black (900) are loaded correctly and used
+            without any artificial scaling or fake bolding.
+        </p>
+
+    </div>
+
+</body>
+</html>

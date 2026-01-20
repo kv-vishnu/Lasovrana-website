@@ -1,12 +1,18 @@
-<!-- Footer -->
-    <footer>
-        <div class="footer-container">
-            <img src="assets/images/footer-logo.png" alt="">
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Lasovrana. All rights reserved</p>
-        </div>
-    </footer>
+<footer>
+    <div class="footer-left">
+        <span>SIGN UP!</span>
+        <span>EMAIL</span>
+    </div>
+
+    <div class="footer-center">
+        <img src="assets/images/footer-logo.png" alt="">
+    </div>
+
+    <div class="footer-right">
+        <span>ADDRESS</span>
+        <span class="copyright">COPYRIGHT LASOVRANA 2025</span>
+    </div>
+</footer>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <?php

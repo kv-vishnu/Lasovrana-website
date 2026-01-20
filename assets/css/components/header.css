@@ -1,15 +1,78 @@
  /* Header Styles */
- body{
+
+
+ /* body{
     font-family: 'Archivo', sans-serif;
     padding: 0;
     margin: 0;
     line-height: 1.4;
     font-size: 13px;
- }
+ } */
+
+
+ body {
+            font-family: 'Archivo', Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+            /* line-height: 1.4;
+            font-size: 13px; */
+        }
+
+  @font-face {
+            font-family: 'Archivo';
+            src: url('fonts/archivo/Archivo-Regular.woff2') format('woff2'),
+                 url('fonts/archivo/Archivo-Regular.woff') format('woff'),
+                 url('fonts/archivo/Archivo-Regular.ttf') format('truetype');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+
+
+        /* Archivo Bold */
+        @font-face {
+            font-family: 'Archivo';
+            src: url('fonts/archivo/Archivo-Bold.woff2') format('woff2'),
+                 url('fonts/archivo/Archivo-Bold.woff') format('woff'),
+                 url('fonts/archivo/Archivo-Bold.ttf') format('truetype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* .title-80pt {
+            font-size: 80pt;
+            font-weight: 700;
+            line-height: 1.05;
+            margin-bottom: 30px;
+        }
+
+        .title-33pt-thickest {
+            font-size: 70pt;
+            font-weight: 900;
+            line-height: 1.05;
+            margin-bottom: 30px;
+            letter-spacing: -5px;
+            transform: scaleY(1.09);
+            transform-origin: center;
+        }
+
+        .subtitle-33pt-bold {
+            font-size: 33pt;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 40px;
+        } */
+
+
+
+
+
 
 
  /* IBM PLEX SERIF */
- .ibm-plex-serif-thin {
+ /* .ibm-plex-serif-thin {
   font-family: "IBM Plex Serif", serif;
   font-weight: 100;
   font-style: normal;
@@ -91,17 +154,17 @@
   font-family: "IBM Plex Serif", serif;
   font-weight: 700;
   font-style: italic;
-}
+} */
 /* IBM PLEX SERIF */
 
  body,
 ul,
-p {
+/* p {
   padding: 0;
   margin: 0;
   color: #000;
   font-size: 1.3rem;
-}
+} */
 
 a {
   text-decoration: none;
@@ -121,16 +184,8 @@ p {
   margin: 0;
   padding: 0;
 }
-h1 {
-  font-size: 5rem;
-  line-height: 90%;
-  letter-spacing:-4px;
-  font-stretch: 84%;
-  font-weight: 852;
-  color: #000;
-  text-transform: uppercase;
-}
-h2 {
+
+/* h2 {
   font-size: 4rem;
   line-height: 1.1;
   letter-spacing: -2px;
@@ -154,6 +209,10 @@ h4 {
   font-weight: 900;
   color: #000;
   text-transform: uppercase;
+} */
+.header-buttons img {
+    width: 35px;
+    height: 35px;
 }
 /* Responsive */
 @media (max-width: 768px) {
@@ -237,6 +296,8 @@ h4 {
             text-transform: uppercase;
             font-weight: 900;
             letter-spacing: -1px;
+            transform: scaleY(1.19);
+            transform-origin: center;
         }
 
         nav a:hover {

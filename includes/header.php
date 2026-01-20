@@ -66,7 +66,7 @@ if (!empty($page_assets[$current_page]["css"])) {
 
             <div class="header-buttons">
                 <a href="#"><img src="assets/images/user-icon.png" alt=""></a>
-                <a href="#"><img src="assets/images/cart-icon.png" alt=""></a>
+                <a href="#"><img src="assets/images/basket-icon.png" alt=""></a>
             </div>
 
             <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>

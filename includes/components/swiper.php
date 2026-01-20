@@ -5,19 +5,19 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">
-        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80">
+        <img src="assets/images/slider1.jpg" alt="Slide 1 Image">
       </div>
 
       <div class="swiper-slide">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80">
+        <img src="assets/images/slider2.jpg" alt="Slide 2 Image">
       </div>
 
       <div class="swiper-slide">
-        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80">
+        <img src="assets/images/slider3.jpg" alt="Slide 3 Image">
       </div>
 
       <div class="swiper-slide">
-        <img src="https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?auto=format&fit=crop&w=800&q=80">
+        <img src="assets/images/slider3.jpg" alt="Slide 4 Image">
       </div>
       </div>
 
