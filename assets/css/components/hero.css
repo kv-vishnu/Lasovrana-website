@@ -21,11 +21,11 @@
         }
         .hero-content h1{
            font-size: 80pt;
-    font-weight: 852;
+    font-weight: 600;
     line-height: 1.05;
     margin-bottom: 30px;
     letter-spacing: -4px;
-    transform: scaleY(1.09);
+    /* transform: scaleY(1.09); */
     transform-origin: center;
     line-height: 90%;
     color: #000000;
@@ -34,7 +34,7 @@
     max-width: 38%;
     margin: 0 auto;
     font-size: 33pt;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: -4px;
     line-height: 90%;
     color: #000000;
