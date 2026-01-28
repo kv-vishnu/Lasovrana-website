@@ -21,21 +21,24 @@
         }
         .hero-content h1{
            font-size: 80pt;
-    font-weight: 600;
-    line-height: 1.05;
-    margin-bottom: 30px;
-    letter-spacing: -4px;
-    /* transform: scaleY(1.09); */
+    font-weight: 700;
+    letter-spacing: -5px;
+    line-height: 0.8;
+    transform: scaleY(1.05);
     transform-origin: center;
-    line-height: 90%;
+    /*
+    margin-bottom: 30px;
+    /* transform: scaleX(1.03);
+    transform-origin: left center;
+    line-height: 90%; */
     color: #000000;
         }
         .hero-content p{
     max-width: 38%;
     margin: 0 auto;
     font-size: 33pt;
-    font-weight: 600;
-    letter-spacing: -4px;
+    font-weight: 400;
+    letter-spacing: -2px;
     line-height: 90%;
     color: #000000;
     margin-top: 100px;

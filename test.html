@@ -1,205 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Italian Produce – Sample Typography Page</title>
+    <meta charset="UTF-8">
+    <title>Archivo Font Demo</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <style>
+      /* =========================
+   Archivo Font Definitions
+   ========================= */
 
-  <style>
-    * {
-        box-sizing: border-box;
-    }
+body {
+    font-family: 'Archivo', Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #ffffff;
+    color: #111;
+}
 
-    body {
-      margin: 0;
-      font-family: 'Archivo', sans-serif;
-      font-weight: 600;
-      color: #111;
-      background: #fff;
-    }
+@font-face {
+    font-family: 'Archivo';
+    src: url('/lasovrana-web/assets/fonts/archivo/Archivo-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 
-    /* Layout */
-    .container {
-      max-width: 1400px;
-      margin: auto;
-      padding: 80px 60px;
-    }
+@font-face {
+    font-family: 'Archivo';
+    src: url('/lasovrana-web/assets/fonts/archivo/ArchivoBlack-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
-    /* Navigation */
-    nav {
-      display: flex;
-      justify-content: space-between;
-      padding: 40px 60px;
-    }
+/* =========================
+   Base Styles
+   ========================= */
 
-    nav a {
-      text-decoration: none;
-      color: #111;
-      font-size: 38px;
-      margin-right: 40px;
-    }
 
-    /* Hero */
-    .hero-title {
-      font-size: 110px;
-      line-height: 1.05;
-      margin-bottom: 60px;
-    }
 
-    /* Section Titles */
-    .section-title {
-      font-size: 98px;
-      margin: 120px 0 40px;
-    }
+/* =========================
+   Typography
+   ========================= */
 
-    /* Intro / Body Text */
-    .intro-text {
-      font-size: 45px;
-      line-height: 1.25;
-      max-width: 1000px;
-      margin-bottom: 50px;
-    }
+h1 {
+    font-size: 80px;
+    font-weight: 700; /* Bold */
+    margin-bottom: 20px;
+}
 
-    .body-text {
-      font-size: 40px;
-      line-height: 1.35;
-      max-width: 900px;
-      margin-bottom: 30px;
-    }
+.intro {
+    font-size: 33px;
+    font-weight: 600; /* SemiBold */
+    max-width: 800px;
+}
 
-    .body-small {
-      font-size: 38px;
-      line-height: 1.4;
-      max-width: 900px;
-      margin-bottom: 30px;
-    }
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 60px;
+}
 
-    /* Product Card */
-    .product {
-      margin-top: 80px;
-    }
+p {
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 900px;
+    line-height: 1.4;
+}
 
-    .product-title {
-      font-size: 48px;
-      margin-bottom: 20px;
-    }
+.small-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
 
-    /* CTA */
-    .cta {
-      font-size: 68px;
-      margin: 120px 0;
-    }
-
-    /* Footer */
-    footer {
-      border-top: 1px solid #ddd;
-      padding: 80px 60px;
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 60px;
-    }
-
-    .footer-label {
-      font-size: 38px;
-      margin-bottom: 10px;
-    }
-
-    .footer-big {
-      font-size: 98px;
-      margin-top: 80px;
-    }
-
-    .copyright {
-      font-size: 38px;
-      margin-top: 60px;
-    }
-  </style>
+    </style>
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav>
-    <div>
-      <a href="#">OUR STORY</a>
-      <a href="#">WHAT’S IN SEASON</a>
-      <a href="#">WHOLESALE</a>
-    </div>
-  </nav>
+    <header class="page-header">
+        <h1>IN SEASONg</h1>
+        <p class="intro">
+           “We share our passion for authentic and
+seasonal Italian produce with chefs,
+shops and homes around the world.
+Bringing our expertise straight from our farms to your table.”
+        </p>
+    </header>
 
-  <!-- Hero -->
-  <div class="container">
-    <div class="hero-title">
-      PICKED BY HAND.<br>
-      SHARED WITH HEART.
-    </div>
+    <section class="content">
+        <h2>Fresh Produce g</h2>
+        <p>
+            g Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
 
-    <!-- Intro -->
-    <p class="intro-text">
-      We share our passion for authentic and seasonal Italian produce, grown with care,
-      harvested by hand, and delivered at its freshest.
-    </p>
-
-    <!-- Section -->
-    <div class="section-title">IN SEASON</div>
-
-    <p class="intro-text">
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-      euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    </p>
-
-    <p class="body-text">
-      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-      lobortis nisl ut aliquip ex ea commodo consequat.
-    </p>
-
-    <p class="body-small">
-      Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-      consequat, vel illum dolore eu feugiat nulla facilisis.
-    </p>
-
-    <!-- Product -->
-    <div class="product">
-      <div class="product-title">Cardoni</div>
-      <p class="body-text">
-        Met, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-        laoreet dolore magna aliquam erat volutpat.
-      </p>
-    </div>
-
-    <!-- CTA -->
-    <div class="cta">
-      BECOME A CUSTOMER
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-grid">
-      <div>
-        <div class="footer-label">ADDRESS</div>
-        <div class="footer-label">EMAIL</div>
-      </div>
-
-      <div>
-        <div class="footer-label">SIGN UP!</div>
-      </div>
-
-      <div>
-        <div class="footer-label">CONTACT</div>
-      </div>
-    </div>
-
-    <div class="footer-big">WHOLESALE</div>
-
-    <div class="copyright">
-      COPYRIGHT LASOVRANA 2025
-    </div>
-  </footer>
+        <p class="small-text">
+            Ut g wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
+        </p>
+    </section>
 
 </body>
 </html>

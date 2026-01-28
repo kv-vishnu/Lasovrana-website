@@ -6,7 +6,6 @@
 <title>Lasovrana</title>
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
 
 <?php
 $current_page = basename($_SERVER["PHP_SELF"], ".php");

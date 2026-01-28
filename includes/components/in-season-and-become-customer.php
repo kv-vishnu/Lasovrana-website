@@ -19,11 +19,10 @@
 
         .in-season-hero-section p {
     font-size: 33pt;
-    font-weight: 400;
-    letter-spacing: -4px;
+    font-weight: 600;
+    letter-spacing: -2px;
     line-height: 90%;
     color: #000000;
-    /* margin-top: 100px; */
     margin-bottom: 100px;
         }
 
@@ -64,8 +63,8 @@
 
 .product-card p {
     font-size: 33pt;
-    font-weight: 400;
-    letter-spacing: -4px;
+    font-weight: 600;
+    letter-spacing: -2px;
     line-height: 90%;
     color: #000000;
 }

@@ -1,15 +1,4 @@
  /* Header Styles */
-
-
- /* body{
-    font-family: 'Archivo', sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 1.4;
-    font-size: 13px;
- } */
-
-
  body {
             font-family: 'Archivo', Arial, sans-serif;
             padding: 0;
@@ -18,145 +7,37 @@
             font-size: 13px; */
         }
 
-  @font-face {
-            font-family: 'Archivo';
-            src: url('fonts/archivo/Archivo-Regular.woff2') format('woff2'),
-                 url('fonts/archivo/Archivo-Regular.woff') format('woff'),
-                 url('fonts/archivo/Archivo-Regular.ttf') format('truetype');
-            font-weight: 500;
-            font-style: normal;
-            font-display: swap;
-        }
-
-
-
-        /* Archivo Bold */
-        @font-face {
-            font-family: 'Archivo';
-            src: url('fonts/archivo/Archivo-Bold.woff2') format('woff2'),
-                 url('fonts/archivo/Archivo-Bold.woff') format('woff'),
-                 url('fonts/archivo/Archivo-Bold.ttf') format('truetype');
-            font-weight: 700;
-            font-style: normal;
-            font-display: swap;
-        }
-
-        /* .title-80pt {
-            font-size: 80pt;
-            font-weight: 700;
-            line-height: 1.05;
-            margin-bottom: 30px;
-        }
-
-        .title-33pt-thickest {
-            font-size: 70pt;
-            font-weight: 900;
-            line-height: 1.05;
-            margin-bottom: 30px;
-            letter-spacing: -5px;
-            transform: scaleY(1.09);
-            transform-origin: center;
-        }
-
-        .subtitle-33pt-bold {
-            font-size: 33pt;
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 40px;
-        } */
-
-
-
-
-
-
-
- /* IBM PLEX SERIF */
- /* .ibm-plex-serif-thin {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.ibm-plex-serif-extralight {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.ibm-plex-serif-light {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.ibm-plex-serif-regular {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ibm-plex-serif-medium {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.ibm-plex-serif-semibold {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.ibm-plex-serif-bold {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.ibm-plex-serif-thin-italic {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.ibm-plex-serif-extralight-italic {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.ibm-plex-serif-light-italic {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.ibm-plex-serif-regular-italic {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.ibm-plex-serif-medium-italic {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.ibm-plex-serif-semibold-italic {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.ibm-plex-serif-bold-italic {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 700;
-  font-style: italic;
+/* @font-face {
+    font-family: 'Archivo';
+    src: url('/lasovrana-web/assets/fonts/archivo/Archivo-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 } */
-/* IBM PLEX SERIF */
 
+@font-face {
+    font-family: 'Archivo';
+    src: url('/lasovrana-web/assets/fonts/archivo/Archivo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('/lasovrana-web/assets/fonts/archivo/Archivo-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('/lasovrana-web/assets/fonts/archivo/ArchivoBlack-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
  body,
 ul,
 /* p {
@@ -185,31 +66,6 @@ p {
   padding: 0;
 }
 
-/* h2 {
-  font-size: 4rem;
-  line-height: 1.1;
-  letter-spacing: -2px;
-  font-weight: 900;
-  color: #000;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
-h3 {
-  font-size:3rem;
-  line-height: 1.1;
-  letter-spacing: -2px;
-  font-weight: 900;
-  color: #000;
-  text-transform: uppercase;
-}
-h4 {
-  font-size:2rem;
-  line-height: 1.1;
-  letter-spacing: 0px;
-  font-weight: 900;
-  color: #000;
-  text-transform: uppercase;
-} */
 .header-buttons img {
     width: 35px;
     height: 35px;
@@ -225,9 +81,9 @@ h4 {
             .container {
                 max-width: 90% !important;
             }
-            p{
+            /* p{
                 font-size: 1.1rem;
-            }
+            } */
         }
 @media (min-width: 576px)  { .container { max-width: 540px; } .header-container { max-width: 540px;} }
 @media (min-width: 768px)  { .container { max-width: 720px; } .header-container { max-width: 720px;} }
