@@ -5,13 +5,14 @@
         }
 
         .in-season-hero-section h1 {
-           font-size: 80pt;
-    font-weight: 700;
-    letter-spacing: -5px;
-    line-height: 0.8;
-    transform: scaleY(1.05);
-    transform-origin: center;
-    text-transform: uppercase;
+           font-size: 6.730591em;
+            letter-spacing: -4px;
+            line-height: 0.8;
+            color: #000000;
+            font-size: 6.730591em;
+            font-family: "AFHVTW+Archivo SemiBold";
+            text-transform: uppercase;
+            margin-bottom:30px;
         }
 
         .in-season-hero-section p {
@@ -71,16 +72,12 @@
         }
 
         .wholesale-section h2 {
-           font-size: 80pt;
-    font-weight: 852;
-    line-height: 1.05;
-    margin-bottom: 30px;
-    letter-spacing: -4px;
-    transform: scaleY(1.09);
-    transform-origin: center;
-    line-height: 90%;
-    color: #000000;
-    text-transform: uppercase;
+            letter-spacing: -4px;
+            line-height: 0.8;
+            color: #000000;
+            font-size: 6.7em;
+            font-family: "AFHVTW+Archivo SemiBold";
+            text-transform: uppercase;
         }
 
         .full-width-image {
