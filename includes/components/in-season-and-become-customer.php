@@ -6,15 +6,12 @@
 
         .in-season-hero-section h1 {
            font-size: 80pt;
-            font-weight: 852;
-            line-height: 1.05;
-            margin-bottom: 30px;
-            letter-spacing: -4px;
-            transform: scaleY(1.09);
-            transform-origin: center;
-            line-height: 90%;
-            color: #000000;
-            text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -5px;
+    line-height: 0.8;
+    transform: scaleY(1.05);
+    transform-origin: center;
+    text-transform: uppercase;
         }
 
         .in-season-hero-section p {
