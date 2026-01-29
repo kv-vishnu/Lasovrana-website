@@ -12,16 +12,17 @@
             font-size: 6.730591em;
             font-family: "AFHVTW+Archivo SemiBold";
             text-transform: uppercase;
-            margin-bottom:30px;
+            margin-bottom:50px;
         }
 
         .in-season-hero-section p {
-    font-size: 33pt;
-    font-weight: 600;
     letter-spacing: -2px;
     line-height: 90%;
     color: #000000;
     margin-bottom: 100px;
+    font-size: 33pt;
+    font-family: "SONMQO+Archivo SemiBold";
+    color: #000000;
         }
 
        .products-grid {
@@ -46,25 +47,23 @@
 }
 
 .product-card h3 {
-    font-size: 33pt;
-    font-weight: 852;
-    line-height: 1.05;
+    font-size: 3em;
+    font-family: "AFHVTW+Archivo SemiBold";
+    color: #000000;
+    letter-spacing: -0.0413em;
     margin-top: 40px;
     margin-bottom: 30px;
-    letter-spacing: -4px;
-    transform: scaleY(1.09);
-    transform-origin: center;
-    line-height: 90%;
-    color: #000000;
-    text-transform: capitalize;
 }
 
 .product-card p {
-    font-size: 33pt;
-    font-weight: 600;
     letter-spacing: -2px;
     line-height: 90%;
     color: #000000;
+    margin-bottom: 100px;
+    font-size: 33pt;
+    font-family: "SONMQO+Archivo SemiBold";
+    color: #000000;
+    text-align: justify;
 }
 
         .wholesale-section {
@@ -72,17 +71,18 @@
         }
 
         .wholesale-section h2 {
-            letter-spacing: -4px;
-            line-height: 0.8;
+            font-size: 6.064541em;
+            font-family: "AFHVTW+Archivo SemiBold";
             color: #000000;
-            font-size: 6.7em;
             font-family: "AFHVTW+Archivo SemiBold";
             text-transform: uppercase;
+                letter-spacing: -0.04em;
+                line-height: 1.51em;
         }
 
         .full-width-image {
             width: 100%;
-            height: 800px;
+            height: 700px;
             background-image: url('https://www.farmafrica.org/wp-content/uploads/2025/09/RS25698_Godfrey-Kirimi-displays-tomoatoes-from-his-farm-in-Tharaka-Nithi.-Photo-credit-Farm-Africa-Bertha-Lutome_lpr.jpg');
             background-size: cover;
             background-position: center;
@@ -96,13 +96,14 @@
             background: #f6ff01;
             color: #000;
             padding: 18px 50px;
-            font-size: 50px;
+            font-size: 4.164642em;
             border-radius: 15px;
             font-weight: 900;
             text-transform: uppercase;
             border: none;
             cursor: pointer;
             letter-spacing: -2px;
+            font-family: "AFHVTW+Archivo SemiBold";
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s ease;
         }
@@ -127,10 +128,8 @@
     align-items: flex-start;
 }
 .footer-left span{
-    font-size: 33pt;
-    font-weight: 500;
-    letter-spacing: -1px;
-    line-height: 1.1;
+    font-size: 2.416667em;
+    font-family: "SONMQO+Archivo SemiBold";
     color: #000000;
 }
 
@@ -141,10 +140,8 @@
     align-items: flex-end;
 }
 .footer-right span{
-    font-size: 33pt;
-    font-weight: 500;
-    letter-spacing: -1px;
-    line-height: 1.1;
+    font-size: 2.416667em;
+    font-family: "SONMQO+Archivo SemiBold";
     color: #000000;
 }
 /* Center Logo */
@@ -184,7 +181,9 @@
 
 <section class="in-season-hero-section">
         <h1>In Season</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+euismod tincidunt ut laoreet dolore magna. Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna .</p>
 
         <div class="products-grid">
             <div class="product-card">
@@ -199,7 +198,7 @@ tincidunt ut laoreet dolore
 magna aliquam erat volutpat.
 Ut wisi enim ad minim
 veniam, quis nostrud
-exerci</p>
+exerci tation</p>
             </div>
             <div class="product-card">
                 <div class="product-image">
@@ -213,7 +212,7 @@ tincidunt ut laoreet dolore
 magna aliquam erat volutpat.
 Ut wisi enim ad minim
 veniam, quis nostrud
-exerci</p>
+exerci tation</p>
             </div>
             <div class="product-card">
                 <div class="product-image">
@@ -227,7 +226,7 @@ tincidunt ut laoreet dolore
 magna aliquam erat volutpat.
 Ut wisi enim ad minim
 veniam, quis nostrud
-exerci</p>
+exerci tation</p>
             </div>
         </div>
     </section>
