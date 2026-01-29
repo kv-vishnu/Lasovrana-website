@@ -1,7 +1,6 @@
 <footer>
     <div class="footer-left">
-        <span>SIGN UP!</span>
-        <span>EMAIL</span>
+        <span>info@lasovrana.co.uk</span>
     </div>
 
     <div class="footer-center">
@@ -9,8 +8,7 @@
     </div>
 
     <div class="footer-right">
-        <span>ADDRESS</span>
-        <span class="copyright">COPYRIGHT LASOVRANA 2025</span>
+        <span>Unit 427-428 Distribution Block B, SW8 5EQ</span>
     </div>
 </footer>
 <!-- Swiper JS -->

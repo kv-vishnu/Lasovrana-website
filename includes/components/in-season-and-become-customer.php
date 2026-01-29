@@ -127,8 +127,7 @@
     align-items: flex-start;
 }
 .footer-left span{
-    font-size: 2.416667em;
-    font-family: "SONMQO+Archivo SemiBold";
+    font-size: 1.7em;
     color: #000000;
     line-height: 80px;
 }
@@ -140,8 +139,7 @@
     align-items: flex-end;
 }
 .footer-right span{
-    font-size: 2.416667em;
-    font-family: "SONMQO+Archivo SemiBold";
+    font-size: 1.7em;
     color: #000000;
     line-height: 80px;
 }
