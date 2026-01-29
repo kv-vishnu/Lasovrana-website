@@ -11,6 +11,9 @@
         <span>Unit 427-428 Distribution Block B, SW8 5EQ</span>
     </div>
 </footer>
+<div class="footer-bottom">
+        <p>© 2026 Lasovrana. All Rights Reserved.</p>
+    </div>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <?php
