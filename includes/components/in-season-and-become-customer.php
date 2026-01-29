@@ -1,15 +1,14 @@
   <style>
 
         .in-season-hero-section {
-            padding: 40px 60px;
+            padding: 40px 160px;
         }
 
         .in-season-hero-section h1 {
-           font-size: 6.730591em;
             letter-spacing: -4px;
             line-height: 0.8;
             color: #000000;
-            font-size: 6.730591em;
+            font-size: 6em;
             font-family: "AFHVTW+Archivo SemiBold";
             text-transform: uppercase;
             margin-bottom:50px;
@@ -67,11 +66,11 @@
 }
 
         .wholesale-section {
-            padding: 40px 60px;
+            padding: 40px 160px;
         }
 
         .wholesale-section h2 {
-            font-size: 6.064541em;
+            font-size: 6em;
             font-family: "AFHVTW+Archivo SemiBold";
             color: #000000;
             font-family: "AFHVTW+Archivo SemiBold";
@@ -117,7 +116,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; /* left & right fixed */
-    padding: 80px 80px;
+    padding: 80px 160px;
     position: relative;
 }
 
@@ -131,6 +130,7 @@
     font-size: 2.416667em;
     font-family: "SONMQO+Archivo SemiBold";
     color: #000000;
+    line-height: 80px;
 }
 
 /* Right */
@@ -143,6 +143,7 @@
     font-size: 2.416667em;
     font-family: "SONMQO+Archivo SemiBold";
     color: #000000;
+    line-height: 80px;
 }
 /* Center Logo */
 .footer-center{
