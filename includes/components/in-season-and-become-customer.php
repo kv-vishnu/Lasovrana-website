@@ -129,7 +129,7 @@
 .footer-left span{
     font-size: 1.7em;
     color: #000000;
-    line-height: 80px;
+    line-height: 50px;
 }
 
 /* Right */
@@ -141,7 +141,7 @@
 .footer-right span{
     font-size: 1.7em;
     color: #000000;
-    line-height: 80px;
+    line-height: 50px;
 }
 /* Center Logo */
 .footer-center{
