@@ -16,28 +16,27 @@
             overflow: hidden;
         }
         .hero-content img{
-            margin-top: 160px;
-            width: 90%;
+            margin-top: 140px;
+            width: 80%;
         }
         .hero-content h1
         {
-            font-size: 6.730591em;
+            font-size: 104px;
             letter-spacing: -4px;
             line-height: 0.8;
             color: #000000;
-            font-size: 6.7em;
             font-family: "AFHVTW+Archivo SemiBold";
         }
         .hero-content p{
-    max-width: 38%;
+    max-width: 33%;
     margin: 0 auto;
-    font-size: 33pt;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: -2px;
     line-height: 90%;
     color: #000000;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
         }
 
         .hero-image {

@@ -45,6 +45,10 @@
     padding-top: 20px;
     padding-bottom: 20px;
     color: #000;
+    background: #000000;
+}
+.footer-bottom p{
+    color: #d3caca;
 }
 
          /* Mobile Responsive */
