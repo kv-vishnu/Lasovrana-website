@@ -46,7 +46,7 @@
 }
 
 .product-card h3 {
-    font-size: 25px;
+    font-size: 48px;
     font-family: "AFHVTW+Archivo SemiBold";
     color: #000000;
     letter-spacing: -0.0413em;
@@ -152,6 +152,7 @@
     font-size: 16px;
     color: #d3caca;
     line-height: 50px;
+        text-transform: uppercase;
 }
 .footer-left a{
     color: #d3caca;
@@ -228,7 +229,7 @@
         <section class="mb-5">
         <div class="position-relative">
             <img
-                src="https://www.geocledian.com/wp-content/uploads/2024/07/farmer-farming-sustainable-support-rate-application.jpg"
+                src="https://cdn.sanity.io/images/ftjhtw5n/production/0ed368c13d194fcf42f59a08d84435f3a51ff0f6-1620x1080.jpg"
                 alt="Banner"
                 class="img-fluid w-100 object-fit-cover"
                 style="width: -webkit-fill-available;"
