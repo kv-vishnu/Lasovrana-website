@@ -124,7 +124,7 @@ p {
 
 @media (min-width: 1200px) {
     body {
-        background-color: #f6ff01;
+        background-color: #393a2a;
     }
 
     .container { max-width: 1350px; }
@@ -133,7 +133,7 @@ p {
 
 @media (min-width: 1600px) {
     body {
-        background-color: #f6ff01;
+        background-color: #0f0f0d;
     }
 
     .container { max-width: 1400px; }
