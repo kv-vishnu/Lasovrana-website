@@ -97,7 +97,7 @@ p {
         }
 @media (min-width: 576px) {
     body {
-        background-color: #ac4343;
+        background-color: #f6ff01;
     }
 
     .container { max-width: 540px; }
@@ -106,7 +106,7 @@ p {
 
 @media (min-width: 768px) {
     body {
-        background-color: #0951be;
+        background-color: #f6ff01;
     }
 
     .container { max-width: 720px; }
@@ -115,7 +115,7 @@ p {
 
 @media (min-width: 992px) {
     body {
-        background-color: #128812;
+        background-color: #f6ff01;
     }
 
     .container { max-width: 960px; }
@@ -124,7 +124,7 @@ p {
 
 @media (min-width: 1200px) {
     body {
-        background-color: #393a2a;
+        background-color: #f6ff01;
     }
 
     .container { max-width: 1350px; }
@@ -133,7 +133,7 @@ p {
 
 @media (min-width: 1600px) {
     body {
-        background-color: #0f0f0d;
+        background-color: #f6ff01;
     }
 
     .container { max-width: 1400px; }
