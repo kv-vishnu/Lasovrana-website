@@ -97,7 +97,7 @@ p {
         }
 @media (min-width: 576px) {
     body {
-        background-color: #ffecec;
+        background-color: #ac4343;
     }
 
     .container { max-width: 540px; }
@@ -106,7 +106,7 @@ p {
 
 @media (min-width: 768px) {
     body {
-        background-color: #e6f0ff;
+        background-color: #0951be;
     }
 
     .container { max-width: 720px; }
@@ -115,7 +115,7 @@ p {
 
 @media (min-width: 992px) {
     body {
-        background-color: #eaffea;
+        background-color: #128812;
     }
 
     .container { max-width: 960px; }
