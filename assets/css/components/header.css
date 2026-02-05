@@ -137,7 +137,7 @@ p {
     }
 
     .container { max-width: 1400px; }
-    .header-container { max-width: 1650px; }
+    .header-container { max-width: 1400px; }
 }
 
 @media (min-width: 1800px) {
