@@ -138,6 +138,9 @@ p {
 
     .container { max-width: 1400px; }
     .header-container { max-width: 1400px; }
+    footer {
+        padding: 80px 190px;
+    }
 }
 
 @media (min-width: 1800px) {
