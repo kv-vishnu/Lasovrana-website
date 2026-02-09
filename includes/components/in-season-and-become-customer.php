@@ -125,9 +125,9 @@
 .cta-text {
     max-width: 33%;
     font-size: 40px;
+    font-weight:400;
     line-height: 1.2;
     letter-spacing: -1px;
-    font-family: "SONMQO+Archivo SemiBold";
     color: #ffffff;
     margin: 0;
 }
